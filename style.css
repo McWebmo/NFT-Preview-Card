@@ -11,24 +11,73 @@ body{
 .container {
     background-color: hsl(216, 50%, 16%);
     width: 50%;
+    padding: 20px;
+    border-radius: 20px;
 }
 
-img {
+.NFT {
     width: 100%;
+    border-radius: 10px;
 }
 
 h1 {
     color: white;
+    font-size: 22px;
 }
 
 h2 {
-    color: hsl(215, 32%, 27%);
+    font-size: 18px;
+    margin: 22px 0;
+    font-weight: 300;
 }
 
 .price {
     color: hsl(178, 100%, 50%);
+    font-weight: 700;
 }
 
-.time-left, .artist {
-    color: hsl(215, 32%, 27%);
+.time-left {
+    font-weight: 700;
+}
+
+.time-left, .artist, h2 {
+    color: hsl(215, 51%, 70%);
+}
+
+.price-time-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.line {
+    border-bottom: 2px solid hsl(215, 32%, 27%);
+    display: block;
+    margin: 15px 0;
+}
+
+svg {
+    padding-right: 10px;
+}
+
+.price-container , .time-container {
+    display: flex;
+    align-items: center;
+}
+
+.artist {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.avatar {
+    width: 35px;
+    border: 2px solid white;
+    border-radius: 100%;
+}
+
+p {
+    color: white;
+    font-weight: 400;
+    margin: 0;
 }
